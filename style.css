@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  display: block;
+}
+
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  background: #a7ddbc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-wrapper{
+  width:100%;
+  max-width: 1200px;
+}
+
+.filter-btns{
+  width: 100%;
+  display: flex;
+  column-gap: .25rem;
+}
+
+.filter-btns button{
+  width: 16.66%;
+  border-radius: 0;
+  border: 1px solid #fff;
+  color: #fff;
+  background: #316764;
+  padding: 0.5rem 0;
+}
+
+.filter-btns button:hover,
+.filter-btns button.active{
+  background: #609687;
+}
